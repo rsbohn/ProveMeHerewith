@@ -1,0 +1,10 @@
+{
+  "name": "This Dev Container",
+  "dockerFile": "Dockerfile",
+  "extensions": ["ms-vscode.node-essentials"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npm install -g yo generator-code",
+  "remoteUser": "node"
+}
